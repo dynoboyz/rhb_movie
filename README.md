@@ -29,8 +29,8 @@ after run spring boot, go to terminal run 'mvn test'
 - POST http://localhost:8080/api/update
 {
     "id": "10",
-    "title": "qwe122",
-    "category": "asd1",
+    "title": "Movie Update",
+    "category": "Action",
     "rating": 0.7
 }
 - POST http://localhost:8080/api/delete/{id}
