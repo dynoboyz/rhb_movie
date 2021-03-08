@@ -55,7 +55,7 @@ public class TestMovie {
                 new ParameterizedTypeReference<List<Movie>>() {});
 
         List<Movie> movies = response.getBody();
-        assertTrue(movies.size() >= 2);
+        assertTrue(movies.size() >= 1);
     }
 
     @Test
